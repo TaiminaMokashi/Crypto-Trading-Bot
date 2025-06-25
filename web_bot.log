@@ -1,0 +1,22 @@
+2025-06-25 16:46:21,581 - INFO - Web logger test: Flask app started
+2025-06-25 16:46:21,601 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 16:46:21,601 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 16:46:52,838 - INFO - 127.0.0.1 - - [25/Jun/2025 16:46:52] "GET / HTTP/1.1" 200 -
+2025-06-25 16:46:59,431 - INFO - Order placed: {'orderId': 4749350869, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJec41e08b5c5b2d82790402', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1750850274881}
+2025-06-25 16:46:59,433 - INFO - Order placed successfully: {'orderId': 4749350869, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJec41e08b5c5b2d82790402', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1750850274881}
+2025-06-25 16:46:59,439 - INFO - 127.0.0.1 - - [25/Jun/2025 16:46:59] "POST / HTTP/1.1" 200 -
+2025-06-25 16:51:31,731 - INFO - Web logger test: Flask app started
+2025-06-25 16:51:31,741 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 16:51:31,741 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 16:51:41,378 - INFO - 127.0.0.1 - - [25/Jun/2025 16:51:41] "GET / HTTP/1.1" 200 -
+2025-06-25 16:52:12,391 - ERROR - Error placing order: APIError(code=-1111): Precision is over the maximum defined for this asset.
+2025-06-25 16:52:12,393 - ERROR - Order failed for BTCUSDT BUY LIMIT 0.001 0.001 None
+2025-06-25 16:52:12,406 - INFO - 127.0.0.1 - - [25/Jun/2025 16:52:12] "POST / HTTP/1.1" 200 -
+2025-06-25 16:53:56,026 - ERROR - Error placing order: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2025-06-25 16:53:56,032 - ERROR - Order failed for BTCUSDT BUY LIMIT 0.002 10454.0 None
+2025-06-25 16:53:56,041 - INFO - 127.0.0.1 - - [25/Jun/2025 16:53:56] "POST / HTTP/1.1" 200 -
+2025-06-25 16:54:07,831 - INFO - Order placed: {'orderId': 4749667292, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf58dc9f0d1cfc0355c8868', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1750850703301}
+2025-06-25 16:54:07,831 - INFO - Order placed successfully: {'orderId': 4749667292, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf58dc9f0d1cfc0355c8868', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1750850703301}
+2025-06-25 16:54:07,843 - INFO - 127.0.0.1 - - [25/Jun/2025 16:54:07] "POST / HTTP/1.1" 200 -
